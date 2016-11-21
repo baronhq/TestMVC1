@@ -20,6 +20,12 @@ namespace TestMVC1.Controllers
             return View();
         }
 
+        public ActionResult Edit()
+        {
+            return View();
+        }
+
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
